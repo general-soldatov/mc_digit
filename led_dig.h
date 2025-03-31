@@ -62,7 +62,7 @@ unsigned char digit(unsigned char num) {
 }
 
 unsigned char symbol(unsigned char sym) {
-	if (symb >= '0' && symb <= '9') {
+	if (symb >= '0' && symb <= '9') 
 		return digit(symb - '0');
 	return letter(symb);
 }
