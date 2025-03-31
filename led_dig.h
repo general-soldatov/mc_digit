@@ -61,7 +61,7 @@ unsigned char digit(unsigned char num) {
 	return letter('e');
 }
 
-unsigned char symbol(unsigned char sym) {
+unsigned char symbol(unsigned char symb) {
 	if (symb >= '0' && symb <= '9') 
 		return digit(symb - '0');
 	return letter(symb);
